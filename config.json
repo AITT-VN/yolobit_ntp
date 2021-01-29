@@ -1,0 +1,14 @@
+{
+    "name": "NETWORK TIME",
+    "description": "Mục mở rộng hỗ trợ đọc thời gian từ Network Time Protocol",
+    "libs": [
+        "ntptime.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+    },
+    "poster": "poster.png"
+}

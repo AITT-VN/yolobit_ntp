@@ -1,0 +1,6 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category id="ntp" name="NTP" colour="#FBC041" icon="clock">
+    <block type="read"></block>
+    <block type="day"></block>
+  </category>
+</xml>
