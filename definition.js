@@ -1,7 +1,7 @@
 Blockly.Blocks['set_time'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Cập nhập thời gian với múi giờ")
+        .appendField("cập nhập thời gian với múi giờ")
         .appendField(new Blockly.FieldDropdown([["GMT+7","+7"], ["GMT+8","+8"], ["GMT+9","+9"], ["GMT+10","+10"], ["GMT+11","+11"], ["GMT+12","+12"], ["GMT-11","-11"], ["GMT-10","-10"], ["GMT-9","-9"], ["GMT-8","-8"], ["GMT-7","-7"], ["GMT-6","-6"], ["GMT-5","-5"], ["GMT-4","-4"], ["GMT-3","-3"], ["GMT-2","-2"], ["GMT-1","-1"], ["GMT+0","+0"], ["GMT+1","+1"], ["GMT+2","+2"], ["GMT+3","+3"], ["GMT+4","+4"], ["GMT+5","+5"], ["GMT+6","6"]]), "GMT");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
