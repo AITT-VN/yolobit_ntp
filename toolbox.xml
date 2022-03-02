@@ -1,5 +1,17 @@
 <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
   <category id="ntp" name="NTP" colour="#FBC041" icon="clock">
+    <block type="yolobit_ntp_connect_wifi">
+      <value name="WIFI">
+        <shadow type="text">
+          <field name="TEXT">wifi</field>
+        </shadow>
+      </value>
+      <value name="PASSWORD">
+        <shadow type="text">
+          <field name="TEXT">password</field>
+        </shadow>
+      </value>
+    </block>
     <block type="set_time"></block>
     <block type="get_time"></block>
   </category>

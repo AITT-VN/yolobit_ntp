@@ -1,8 +1,7 @@
 {
-    "name": "NETWORK TIME",
-    "description": "Mục mở rộng hỗ trợ đọc thời gian từ Network Time Protocol",
+    "name": "NTP",
+    "description": "Mục mở rộng hỗ trợ đọc thời gian từ Internet qua giao thức NTP (Network Time Protocol)",
     "libs": [
-        "ntptime.py"
     ],
     "blocks": [
         "definition.js"
